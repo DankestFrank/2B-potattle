@@ -13,117 +13,117 @@ body {
 #potato {
 	background-color: rgb(218, 165, 32);
     font-size:24px;
-	border-style: groove;
-	border-radius:30px;
+    border-style: groove;
+    border-radius:30px;
     border-width: 8px;
     border-color: Silver;
     padding-left: 4px;
     padding-right: 4px;
-	height: 357px;
-	float: left;
-	width: 444;
+    height: 357px;
+    float: left;
+    width: 444;
 }
 
 #market {
 	background-color: rgb(218, 165,32);
     font-size:20px;
-	border-style: groove;
-	border-radius:30px;
+    border-style: groove;
+    border-radius:30px;
     border-width: 8px;
     border-color: Silver;
     padding-left: 4px;
     padding-right: 4px;
-	height: 357px;
-	float: right;
+   height: 357px;
+   float: right;
 	}
 
 #potattle {
   	background-color: rgb(218, 165,32);
     font-size:100px;
-	border-style: groove;
-	border-radius:30px;
+    border-style: groove;
+    border-radius:30px;
     border-width: 8px;
     border-color: Gold;
     padding-left: 8px;
     padding-right: 4px;
-	height: 357px;
-	text-align: center;
-	width:929px;
-	float: left;
-	line-height: 0px;
+    height: 357px;
+    text-align: center;
+    width:929px;
+    float: left;
+    line-height: 0px;
 }
 
 #stats {
 	background-color: rgb(218, 165,32);
     font-size:24px;
-	border-style: groove;
-	border-radius:30px;
+    border-style: groove;
+    border-radius:30px;
     border-width: 8px;
     border-color: Silver;
     padding-left: 4px;
     padding-right: 4px;
-	width: 200px;
-	float: left;
-	height: 1000px;
+    width: 200px;
+    float: left;
+    height: 1000px;
 }
 /*screen adaptation*/
 @media screen and (max-width:  980px)  {
-		#potato  {
+	#potato  {
 			clear: both;
     		width: auto;
     		float: none;
     		height: auto;
 		}
-		#potattle {
-			clear: both;
+	#potattle {
+		clear: both;
     		width: auto;
-   		    float: none;
+        	float: none;
     		height: auto;
 		}
-		#market  {
-			clear: both;
+	#market  {
+		clear: both;
     		width: auto;
-   		    float: none;
+   		float: none;
     		height: auto;
 		}
-		#stats {
-			clear: both;
+	#stats {
+		clear: both;
     		width: auto;
-   		    float: none;
+   		float: none;
     		height: auto;
 		}
 		
 }
 
 @media screen and (max-width: 700px)  {
-		#potato, #stats, #market {
-			clear: both;
-    		width: auto;
-   		    float: none;
-    		height: auto;
+	#potato, #stats, #market {
+	clear: both;
+    	width: auto;
+   	float: none;
+    	height: auto;
 	}
 	#potattle {
-			clear: both;
+		clear: both;
     		width: auto;
-   		    float: none;
+   		float: none;
     		height: auto;
-			font-size: 36px;
+		font-size: 36px;
 }
 }
 @media screen and (max-width: 480px)  {
 	#potattle {
-			clear: both;
+		clear: both;
     		width: auto;
-   		    float: none;
+   		float: none;
     		height: auto;
 	}
 	h1 {
-			font-size: 24px;
+	font-size: 24px;
 	}
 	#stats {
 		clear: both;
     		width: auto;
-   		    float: none;
+   		float: none;
     		height: auto;
 	}
 }
@@ -133,25 +133,25 @@ body {
 and (min-device-width: 320px)
 and (max-device-width: 568px)  {
 		body  {
-				font-size: 40px;
+			font-size: 40px;
 		}
 		#potattle  {
-				clear: both;
-				width: auto;
-				height: auto;
-				float: none;
+			clear: both;
+			width: auto;
+			height: auto;
+			float: none;
 		}
 		#market  {
-				clear: both;
-				width: auto;
-				height: auto;
-				float: none;
+			clear: both;
+			width: auto;
+			height: auto;
+			float: none;
 		}
 		#stats {
-				clear: both;
-				width: auto;
-				height: auto;
-				float: none;
+			clear: both;
+			width: auto;
+			height: auto;
+			float: none;
 
 		}
 		#potattle, #stats, #market {
